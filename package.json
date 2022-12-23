@@ -1,0 +1,23 @@
+{
+  "name": "fin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\" \" cd dashboard && npm start \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaabaneAmmar21/pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaabaneAmmar21/pack/issues"
+  },
+  "homepage": "https://github.com/ChaabaneAmmar21/pack#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5"
+  }
+}
